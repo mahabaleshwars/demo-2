@@ -17,7 +17,7 @@ jobs:
         
   windows-test:
       name: Kotlin Native tests for Windows
-      # needs: gradle-wrapper-validation
+      needs: gradle-wrapper-validation
       runs-on: windows-latest
       steps:
       - name: Checkout code
